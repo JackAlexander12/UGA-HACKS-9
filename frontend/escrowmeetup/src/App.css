@@ -1,5 +1,5 @@
   /* Styling for login form */
-  #login-form {
+  /* #login-form {
     max-width: 300px;
     margin: 50px auto;
     padding: 20px;
@@ -18,24 +18,24 @@
   }
 
   /* Styling for buttons after login */
-  .hidden {
+  /* .hidden {
     display: none;
-  }
+  } */
 
 /* Resetting default margin and padding */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 /* Centering the button container */
-.button-container {
+/* .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh; /* Makes the container take the full height of the viewport */
-}
+/*} 
 
 .red-button, .green-button {
   display: inline-block;
@@ -51,13 +51,13 @@
 
 .red-button {
   background-color: #FF0000; /* Red */
-  color: #FFFFFF; 
-}
+  /*color: #FFFFFF; 
+/*}
 
 .green-button {
   background-color: #00FF00; /* Green */
-  color: #000000; 
-}
+  /*color: #000000; 
+/*}
 
 .center-container {
   display: flex;
@@ -73,6 +73,24 @@
 
 .buttons-container {
   margin-top: 20px;
-}
+} */
 
 /* Add your other styles here */
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
