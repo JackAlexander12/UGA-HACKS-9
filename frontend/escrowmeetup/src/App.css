@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  /* Styling for login form */
+  #login-form {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  button {
+    cursor: pointer;
+  }
+
+  /* Styling for buttons after login */
+  .hidden {
+    display: none;
+  }
+
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Centering the button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Makes the container take the full height of the viewport */
+}
+
+.red-button, .green-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.red-button {
+  background-color: #FF0000; /* Red */
+  color: #FFFFFF; 
+}
+
+.green-button {
+  background-color: #00FF00; /* Green */
+  color: #000000; 
+}
+
+.center-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.login-container {
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons-container {
+  margin-top: 20px;
 }
+
+/* Add your other styles here */
